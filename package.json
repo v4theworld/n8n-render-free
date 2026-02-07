@@ -81,6 +81,9 @@
     "zx": "^8.1.4"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["sqlite3"]
+    "onlyBuiltDependencies": ["sqlite3"],
+    "overrides": {
+      "@lezer/common": "1.5.1"
+    }
   }
 }
